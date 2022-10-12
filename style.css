@@ -22,6 +22,8 @@ body {
     margin: 0;
 }
 
+
+
 h1 {
     font-size: 3rem;
     color: #fff;
@@ -30,4 +32,33 @@ h1 {
     top: 20%;
     transform: translateX(-50%);
     white-space: nowrap;
+}
+
+
+.btn {
+    color: #fff;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    border: #fff solid 0.2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 15rem;
+    padding: 1.5rem;
+}
+
+.split.left .btn:hover {
+    background-color: var(--left-btn-hover-color);
+    border-color: var(--left-btn-hover-color);
+}
+
+.split.right .btn:hover {
+    background-color: var(--right-btn-hover-color);
+    border-color: var(--right-btn-hover-color);
 }
