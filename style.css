@@ -82,7 +82,7 @@ h1 {
 /* Left Container */
 .split.left {
     left: 0;
-    background: url("./example.jpg")
+    background: url("https://invisiblelightnetwork.com/wp-content/uploads/2014/10/GW_SH02.jpg")
     no-repeat center / cover;
 }
 
@@ -97,7 +97,7 @@ h1 {
 /* Right Container  */
 .split.right {
     right: 0;
-    background: url("./placeholder.jpg")
+    background: url("http://pilerats.com/assets/Uploads/virtual-self-ep.jpg")
     no-repeat center / cover;
 }
 
