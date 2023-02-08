@@ -60,7 +60,7 @@ body {
     color: #fff;
     mix-blend-mode: multiply;
     object-fit: cover;
-    background-image: url('/duality-site/galaxy.mp4');
+    /* background-image: url('/duality-site/galaxy.mp4'); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /* z-index: 1; */
@@ -73,7 +73,7 @@ h1 {
     color: #fff;
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 30%;
     transform: translateX(-50%);
     white-space: nowrap;
 }
@@ -83,7 +83,7 @@ h2 {
     color: #fff;
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 40%;
     transform: translateX(-50%);
     white-space: nowrap;
     text-align: center;
@@ -97,7 +97,7 @@ h2 {
     align-items: center;
     justify-content: center;
     left: 50%;
-    top: 40%;
+    top: 50%;
     transform: translateX(-50%);
     border: #fff solid 0.2rem;
     text-decoration: none;
